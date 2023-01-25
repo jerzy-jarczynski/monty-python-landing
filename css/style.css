@@ -92,7 +92,7 @@ nav h1, p {
     background-repeat: no-repeat;
     background-size: cover;
     color: #000;
-    text-shadow: 2px 2px #fff;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
     border-top: 5px solid #fff;
 }
 
