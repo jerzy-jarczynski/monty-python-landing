@@ -1,0 +1,46 @@
+/* Globals */
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+}
+
+/* Navigation */
+
+nav {
+    text-align: center;
+    background-image: url("../images/wood-background.jpeg");
+    background-color: #948F82;
+    height: 101px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+    top: 0;
+    border-bottom: 15px solid #584023;
+    box-shadow: 0px 7px 10px 5px #1C1D16AA;
+    color: #fff;
+    text-shadow: 2px 2px #000000CC;
+}
+
+nav div {
+    padding: 20px;
+}
+
+nav h1 {
+    font-family: 'Aboreto', cursive;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+nav p {
+    text-align: right;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+}
+
+nav h1, p {
+    margin: 0;
+    padding: 0;
+}
