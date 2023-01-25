@@ -57,7 +57,7 @@ nav h1, p {
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 .lyrics .container {
@@ -66,6 +66,13 @@ nav h1, p {
     margin: 0 auto;
     padding: 30px;
     background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.0);
+    transition: all 0.7s;
+}
+
+.lyrics .container:hover {
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
 .lyrics p {
@@ -74,4 +81,23 @@ nav h1, p {
 
 .lyrics .chorus {
     font-size: 30px;
+}
+
+/* Skulls */
+
+.skulls {
+    font-family: 'Aboreto', cursive;
+    text-align: center;
+    background-image: url("../images/skulls-background.jpeg");
+    background-color: #948F82;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000;
+    text-shadow: 2px 2px #fff;
+    border-top: 5px solid #fff;
+}
+
+.skulls div {
+    padding: 20px 0 30px;
 }
