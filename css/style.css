@@ -3,7 +3,6 @@
 body {
     padding: 0;
     margin: 0;
-    font-size: 30px;
 }
 
 /* Navigation */
@@ -43,4 +42,36 @@ nav p {
 nav h1, p {
     margin: 0;
     padding: 0;
+}
+
+/* Lyrics */
+
+.lyrics {
+    font-family: 'Dosis', sans-serif;
+    font-size: 25px;
+    background-image: url("../images/cross-background.jpeg");
+    background-color: #948F82;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.lyrics .container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.lyrics p {
+    margin-bottom: 30px;
+}
+
+.lyrics .chorus {
+    font-size: 30px;
 }
