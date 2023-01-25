@@ -11,7 +11,6 @@ nav {
     text-align: center;
     background-image: url("../images/wood-background.jpeg");
     background-color: #948F82;
-    height: 101px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -51,7 +50,6 @@ nav h1, p {
     font-size: 25px;
     background-image: url("../images/cross-background.jpeg");
     background-color: #948F82;
-    height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -61,7 +59,7 @@ nav h1, p {
 }
 
 .lyrics .container {
-    width: 100%;
+    width: 80%;
     max-width: 500px;
     margin: 0 auto;
     padding: 30px;
