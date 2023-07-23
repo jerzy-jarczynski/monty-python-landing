@@ -24,6 +24,9 @@ npm install
 node_modules/.bin/browser-sync start --server --files "css/*.css" "*.html"
 ```
 
+## Release
+
+To place the project on the server, copy `index.html`, the `css` and `images` directories along with the content.
 
 ## Used technologies
 
